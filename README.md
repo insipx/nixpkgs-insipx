@@ -5,15 +5,15 @@
 - Add to home.nix 
 ```nix
 nixpkgs.overlays = [
-  (import /home/$USER/.config/nixpkgs/overlays/nixpkgs-inspx)
+  (import /home/insipx/.config/nixpkgs/overlays/nixpkgs-inspx)
 ];
 ```
 
 then 
 ```
   home.packages = [
-  ...
-  pkgs.penrose
-  ...
+    ...
+    pkgs.penrose
+    ...
   ];
 ```
