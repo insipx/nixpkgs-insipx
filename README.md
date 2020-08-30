@@ -17,3 +17,10 @@ then
     ...
   ];
 ```
+
+
+## Package Descriptions
+
+
+- Penrose: my custom Window Manager written with [Penrose](https://github.com/sminez/penrose). I let home-manager manage my xsession and start it with `windowManager.command` 
+- vim-bbye: A vim plugin that allows you to delete buffers while maintaining the current window layout
