@@ -10,7 +10,7 @@ nixpkgs.overlays = [
 ```
 
 then 
-```
+```nix
   home.packages = [
     ...
     pkgs.penrose
