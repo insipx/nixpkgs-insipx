@@ -8,7 +8,7 @@ rustPlatform.buildRustPackage rec {
   src = fetchFromGitHub {
     owner = "insipx";
     repo = "penrose-insipx";
-    rev = "9744466edded099c2b7ac27a5b6344e7f476629d";
+    rev = "348cf82a6645776fe6839c743ca8ce22422589fc";
     sha256 = "0b0y7a03gq2h9gqm5l1xk5y8vyh4gyvkq49myb499l5rd0sw32yl";
   };
 
